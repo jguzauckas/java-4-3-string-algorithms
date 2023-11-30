@@ -1,9 +1,8 @@
 public class Try {
     public static void main (String[] args){
-        int count;
-         (< 10) {
-            System.out.println();
-            count;
+        String str = "Hello, World!";
+        for (int i = ; i ; i++) {
+            System.out.println(str);
         }
     }
 }

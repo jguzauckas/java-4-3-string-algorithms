@@ -1,12 +1,10 @@
 # You Do
 
-Use the knowledge from the standard algorithms in the notes to finish the `divisibleNumbers` and `nonDivisibleNumbers` methods.
+Use the knowledge from the standard algorithms in the notes to finish the `removeLetter` and `doubleEverything` methods.
 
-The goal of the `divisibleNumbers` method is that given a positive integer value, it prints each whole integer value that divides the provided number, if any. i.e. `divisibleNumbers(15)` would print out `1`, `3`, `5`, and `15`, and `divisibleNumbers(24)` would print out `1`, `2`, `3`, `4`, `6`, `8`, `12`, and `24`.
+The goal of the `removeLetter` method is that given a `String` `str` and a single character `String` `targetChar`, we want to return the original `String` with the provided character removed. i.e. `removeLetter("Hello, World!", "l")` would return `"Heo, Word!"` since it doesn't include any of the `"l"` characters from the original, `removeLetter("Hi, what's up?", "f")` would return `"Hi, what's up"` without any modifications because it didn't have the letter `"f"` to remove, and `removeLetter("aaaaaa", "a")` would return `""`.
 
-The goal of the `nonDivisibleNumbers` method is that given a positive integer value, it prints each whole integer value that does not divide the provided number and is less than the provided number, if any. i.e. `nonDivisibleNumbers(8)` would print out `3`, `5`, `6`, and `7`, and `nonDivisibleNumbers(11)` would print out `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, and `10`.
-
-Both of these methods are `void` and should not use `return`, only printing!
+The goal of the `doubleEverything` method is that given a `String` `str` to print out the same `String` but every character is repeated an extra time. i.e. `doubleEverything(Hello, World!")` would print `"HHeelllloo,,  WWoorrlldd!!"`, `doubleEverything("")` would return `""` since there were no letters to double, and `doubleEverything("Hi Hi")` would return `"HHii  HHii"`.
 
 Note that there are pre-loaded tests in the main method. When done correctly, the file should run and print the expected answers.
 
